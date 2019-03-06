@@ -1,16 +1,10 @@
-# basic
+# Object Detection App
 
-A new Flutter project.
+A Flutter project to detect objects from images.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application with Machine Learning.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+It uses tensorflow's model which is run on a server to detect objects.
+The response returned is the address of static image which is again taken up by the server to return the image.
